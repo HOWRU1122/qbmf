@@ -46,8 +46,6 @@ driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/div
 sleep(1)
 driver.find_element_by_xpath("/html/body/ul[3]/li[2]").click()
 sleep(1)
-#列表
-driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div[1]/div[5]/span").click()
-sleep(1)
-driver.find_element_by_xpath("/html/body/ul[3]/li[1]").click()
-sleep(1)
+#切换销售量
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div[2]/div/div/div/div/label[2]/span").click()
+sleep(2)
