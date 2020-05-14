@@ -31,7 +31,7 @@ sleep(3)
 
 #切换流量分析
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div[2]/div/div/a[2]").click()
-sleep(2)
+sleep(3)
 
 #选择时间
 

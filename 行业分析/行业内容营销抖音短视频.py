@@ -32,11 +32,11 @@ sleep(3)
 
 #切换受众分析
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div[2]/div/div/a[2]").click()
-sleep(3)
+sleep(5)
 
 #切换流量分析
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div[2]/div/div/a[3]").click()
-sleep(3)
+sleep(5)
 
 #选择时间
 driver.find_element_by_xpath("//input[@placeholder='开始日期']").click()
@@ -47,6 +47,6 @@ sleep(2)
 
 #查看明细
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div[4]/div/div[3]/table/tbody/tr/td[6]/div/a").click()
-sleep(2)
+sleep(3)
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div[5]/div/div[1]/button/i").click()
-
+sleep(1)

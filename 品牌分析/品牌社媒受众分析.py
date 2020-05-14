@@ -18,4 +18,4 @@ sleep(2)
 
 #打开社媒受众分析
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div/div/a[5]").click()
-sleep(3)
+sleep(5)
