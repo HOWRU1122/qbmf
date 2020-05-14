@@ -12,7 +12,7 @@ sleep(1)
 driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div/ul/div/li[5]/div").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div/ul/div/li[5]/ul/li/ul/li[3]/span").click()
-sleep(2)
+sleep(3)
 
 #查看详情
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/table/tbody/tr[8]/td[10]/div/p/button/span").click()

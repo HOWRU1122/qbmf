@@ -15,7 +15,7 @@ driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div/ul/div/li[4]
 sleep(5)
 #日热销列表
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div/button[2]/span").click()
-sleep(10)
+sleep(5)
 #关注列表
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div/button[3]/span").click()
-sleep(10)
+sleep(5)

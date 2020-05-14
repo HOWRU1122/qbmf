@@ -25,7 +25,7 @@ sleep(2)
 
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/table/thead/tr/th[4]/div/div/input").click()
 sleep(1)
-driver.find_element_by_xpath("/html/body/div[5]/div/div/ul/li[15]/div/span[2]").click()
+driver.find_element_by_xpath("/html/body/div[5]/div/div/ul/li[5]/div/span[2]").click()
 sleep(2)
 
 #按周按月
