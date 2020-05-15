@@ -15,12 +15,9 @@ driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div/ul/div/li[4]
 sleep(5)
 driver.find_element_by_xpath("//a[@title='perfectdiary旗舰店']").click()
 sleep(2)
-
 #价格分析
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div/div/a[2]").click()
-
 #选择日期
-
 driver.find_element_by_xpath("//input[@placeholder='选择日期']").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table/tbody/tr[2]/td[5]/div/span").click()

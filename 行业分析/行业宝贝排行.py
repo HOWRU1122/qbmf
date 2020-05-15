@@ -40,7 +40,7 @@ driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/div
 sleep(1)
 driver.find_element_by_xpath("/html/body/ul[2]/li[2]").click()
 sleep(1)
-#选择月
+#月时间选择
 driver.find_element_by_xpath("//input[@placeholder='选择月份']").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table[3]/tbody/tr[2]/td/div/a").click()
@@ -53,18 +53,14 @@ sleep(1)
 driver.find_element_by_xpath("/html/body/ul/li/div/div/a[@class='btn']").click()
 sleep(1)
 
-#柱状图
+#切换柱状图
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div[1]/div[7]/span").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/ul[4]/li[2]").click()
-sleep(1)
-#饼图
+sleep(2)
+#切换饼图
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div[1]/div[7]/span").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/ul[4]/li[3]").click()
-sleep(1)
-#列表
-driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div[1]/div[7]/span").click()
-sleep(1)
-driver.find_element_by_xpath("/html/body/ul[4]/li[1]").click()
-sleep(1)
+sleep(2)
+

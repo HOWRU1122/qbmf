@@ -14,16 +14,17 @@ driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/a"
 sleep(1)
 driver.find_element_by_xpath("//a[@title='浙江']").click()
 sleep(1)
-#周选择范围
+#周时间选择
 driver.find_element_by_xpath("//input[@placeholder='选择周']").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table/tbody/tr[3]/td[2]/div/span").click()
 
-#选择月
+#按月
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/div/div/div[1]/div[1]/div/span").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/ul/li[2]").click()
 sleep(1)
+#月时间选择
 driver.find_element_by_xpath("//input[@placeholder='选择月份']").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table[3]/tbody/tr[2]/td/div/a").click()

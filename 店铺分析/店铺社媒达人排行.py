@@ -46,7 +46,7 @@ driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/
 sleep(1)
 driver.find_element_by_xpath("/html/body/ul[2]/li[2]").click()
 sleep(1)
-#时间选择
+#月时间选择
 driver.find_element_by_xpath("//input[@placeholder='选择月份']").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table[3]/tbody/tr/td[3]/div/a").click()
@@ -55,7 +55,7 @@ driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/
 sleep(1)
 driver.find_element_by_xpath("/html/body/ul[2]/li[1]").click()
 sleep(1)
-#时间选择
+#周时间选择
 driver.find_element_by_xpath("//input[@placeholder='选择周']").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table/tbody/tr[2]/td[5]/div/span").click()

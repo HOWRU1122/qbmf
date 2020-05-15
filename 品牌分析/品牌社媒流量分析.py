@@ -15,11 +15,9 @@ driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div/ul/div/li[3]
 sleep(4)
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div[2]/div/div/div[3]/table/tbody/tr[13]/td[2]/div/a").click()
 sleep(2)
-
 #打开社媒流量分析
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div/div/a[4]").click()
 sleep(5)
-
 #选择时间
 driver.find_element_by_xpath("//input[@placeholder='选择日期']").click()
 sleep(1)

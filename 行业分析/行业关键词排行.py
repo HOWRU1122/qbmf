@@ -35,7 +35,7 @@ driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/div
 sleep(1)
 driver.find_element_by_xpath("/html/body/ul[2]/li[2]").click()
 sleep(1)
-#选择周
+#周shi
 driver.find_element_by_xpath("//input[@placeholder='选择周']").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table/tbody/tr[3]/td[3]/div").click()

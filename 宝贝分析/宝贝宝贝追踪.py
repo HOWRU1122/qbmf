@@ -37,10 +37,10 @@ driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table/tbody/tr[2]
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table/tbody/tr[2]/td[5]/div/span").click()
 sleep(1)
-
 #改名追踪
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/a[3]").click()
 sleep(1)
+#选择时间
 driver.find_element_by_xpath("//input[@placeholder='开始日期']").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table/tbody/tr[2]/td/div/span").click()

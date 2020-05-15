@@ -34,16 +34,16 @@ driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/
 sleep(3)
 #查看内容明细
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[2]/div[2]/div[3]/div[2]/div/div/div[3]/table/tbody/tr/td[6]/div/a").click()
-sleep(2)
+sleep(5)
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[2]/div[2]/div[3]/div[2]/div[2]/div/div[1]/button/i[@class = 'el-dialog__close el-icon el-icon-close']").click()
-sleep(2)
+sleep(3)
 #切换抖音短视频
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/a[2]").click()
 sleep(2)
 
 #查看内容明细
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[2]/div[3]/div[2]/div/div/div[3]/table/tbody/tr/td[6]/div/a").click()
-sleep(3)
+sleep(5)
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[2]/div[3]/div[2]/div[2]/div/div[1]/button/i[@class = 'el-dialog__close el-icon el-icon-close']").click()
 sleep(1)
 
