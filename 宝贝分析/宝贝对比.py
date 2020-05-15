@@ -34,3 +34,5 @@ sleep(2)
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div/div/button[3]").click()
 sleep(2)
 #清空宝贝
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/table/thead/tr/th/button").click()
+sleep(2)
