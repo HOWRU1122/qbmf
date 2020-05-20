@@ -22,3 +22,9 @@ sleep(3)
 #关注列表
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div/button/span").click()
 sleep(4)
+#打开近7天、30天销售额销售量
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/div/label/span/span").click()
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/div/label[2]/span/span").click()
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/div/label[3]/span/span").click()
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/div/label[4]/span/span").click()
+
