@@ -42,7 +42,7 @@ class Assert_test(unittest.TestCase):
     print(tablemoney)
     tableamount = driver.find_element_by_xpath(
         "/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div[3]/div[1]/div[1]/div[3]/table/tbody/tr/td[5]/div").get_attribute(
-        "textContent")
+        "textContent").strip().replace('w', '')
     print(tableamount)
 
     # 价格分析
@@ -110,7 +110,7 @@ class Assert_test(unittest.TestCase):
     print(tablemoney)
     tabledayamount = driver.find_element_by_xpath(
         "/html/body/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[2]/div/div/div[3]/div[1]/div[1]/div[3]/table/tbody/tr[1]/td[4]/div").get_attribute(
-        "textContent")
+        "textContent").strip().replace('w', '')
     print(tableamount)
 
     # 切换数据来源
@@ -144,4 +144,5 @@ class Assert_test(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
 

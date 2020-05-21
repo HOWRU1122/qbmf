@@ -13,6 +13,13 @@ driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div/ul/div/li[5]
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div/ul/div/li[5]/ul/li/ul/li/span").click()
 sleep(5)
+#打开近7天近30天销售额销量
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/div/label/span/span").click()
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/div/label[2]/span/span").click()
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/div/label[3]/span/span").click()
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/div/label[4]/span/span").click()
+driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/div/label[4]/span/span").click()
+
 #日热销列表
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div/div/div/div/button[2]/span").click()
 sleep(5)
