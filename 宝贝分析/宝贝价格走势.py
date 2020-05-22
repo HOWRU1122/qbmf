@@ -64,37 +64,37 @@ class Assert_test(unittest.TestCase):
 
     def test_case1(self, a=listdaymoney, b=tooldaymoney):
         try:
-            self.assertEqual(a, b, msg="日销售额对不上"),
+            self.assertEqual(a, b, msg="宝贝价格走势日销售额对不上"),
         except AssertionError as msg1:
             print(msg1)
 
     def test_case2(self, c=listdayamount, d=tooldayamount):
         try:
-            self.assertEqual(c, d, msg="日销售量对不上"),
+            self.assertEqual(c, d, msg="宝贝价格走势日销售量对不上"),
         except AssertionError as msg2:
             print(msg2)
 
     def test_case3(self, e=tooldaymoney, f=tabledaymoney):
         try:
-            self.assertEqual(e, f, msg="日销售额对不上"),
+            self.assertEqual(e, f, msg="宝贝价格走势日销售额对不上"),
         except AssertionError as msg3:
             print(msg3)
 
     def test_case4(self, g=tooldayamount, h=tabledayamount):
         try:
-            self.assertEqual(g, h, msg="日销售量对不上"),
+            self.assertEqual(g, h, msg="宝贝价格走势日销售量对不上"),
         except AssertionError as msg4:
             print(msg4)
 
     def test_case5(self, i=tabledaymoney, j=listdaymoney):
         try:
-            self.assertEqual(i, j, msg="30日销售额对不上"),
+            self.assertEqual(i, j, msg="宝贝价格走势30日销售额对不上"),
         except AssertionError as msg5:
             print(msg5)
 
     def test_case6(self, k=tabledayamount, l=listdayamount):
         try:
-            self.assertEqual(k, l, msg="30日销售量对不上"),
+            self.assertEqual(k, l, msg="宝贝价格走势30日销售量对不上"),
         except AssertionError as msg6:
             print(msg6)
 

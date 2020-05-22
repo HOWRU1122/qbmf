@@ -131,13 +131,13 @@ class Assert_test(unittest.TestCase):
 
     def test_case1(self, a=tablemoney, b=tabledaymoney):
         try:
-            self.assertEqual(a, b, msg="月销售额对不上"),
+            self.assertEqual(a, b, msg="品牌地域月销售额对不上"),
         except AssertionError as msg1:
             print(msg1)
 
     def test_case2(self, c=tableamount, d=tabledayamount):
         try:
-            self.assertEqual(c, d, msg="月销售量对不上"),
+            self.assertEqual(c, d, msg="品牌地域月销售量对不上"),
         except AssertionError as msg2:
             print(msg2)
 

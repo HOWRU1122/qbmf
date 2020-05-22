@@ -121,25 +121,25 @@ class Assert_test(unittest.TestCase):
 
     def test_case1(self, a=money, b=aprilregionmoney):
         try:
-            self.assertEqual(a, b, msg="销售额对不上"),
+            self.assertEqual(a, b, msg="行业地域销售额对不上"),
         except AssertionError as msg1:
             print(msg1)
 
     def test_case2(self, c=amount, d=aprilregionamount):
         try:
-            self.assertEqual(c, d, msg="销售量对不上"),
+            self.assertEqual(c, d, msg="行业地域销售量对不上"),
         except AssertionError as msg2:
             print(msg2)
 
     def test_case3(self, e=mayregionmoney, f=maytoolmoney):
         try:
-            self.assertEqual(e, f, msg="销售额对不上"),
+            self.assertEqual(e, f, msg="行业地域销售额对不上"),
         except AssertionError as msg3:
             print(msg3)
 
     def test_case4(self, g=mayregionamount, h=maytoolamount):
         try:
-            self.assertEqual(g, h, msg="销售量对不上"),
+            self.assertEqual(g, h, msg="行业地域销售量对不上"),
         except AssertionError as msg4:
             print(msg4)
 

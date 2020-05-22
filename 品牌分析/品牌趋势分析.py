@@ -126,49 +126,49 @@ class Assert_test(unittest.TestCase):
 
     def test_case1(self, a=listdaymoney, b=tooldaymoney):
         try:
-            self.assertEqual(a, b, msg="当日销售额对不上"),
+            self.assertEqual(a, b, msg="品牌趋势当日销售额对不上"),
         except AssertionError as msg1:
             print(msg1)
 
     def test_case2(self, c=listdayamount, d=tooldayamount):
         try:
-            self.assertEqual(c, d, msg="当日销售量对不上"),
+            self.assertEqual(c, d, msg="品牌趋势当日销售量对不上"),
         except AssertionError as msg2:
             print(msg2)
 
     def test_case3(self, e=listsevendaymoney, f=toolsevendaymoney):
         try:
-            self.assertEqual(e, f, msg="近7天销售额对不上"),
+            self.assertEqual(e, f, msg="品牌趋势近7天销售额对不上"),
         except AssertionError as msg3:
             print(msg3)
 
     def test_case4(self, g=listsevendayamount, h=toolsevendayamount):
         try:
-            self.assertEqual(g, h, msg="近7天销售量对不上"),
+            self.assertEqual(g, h, msg="品牌趋势近7天销售量对不上"),
         except AssertionError as msg4:
             print(msg4)
 
     def test_case5(self, i=listthittydaymoney, j=toolthittydaymoney):
         try:
-            self.assertEqual(i, j, msg="近30天销售额对不上"),
+            self.assertEqual(i, j, msg="品牌趋势近30天销售额对不上"),
         except AssertionError as msg5:
             print(msg5)
 
     def test_case6(self, k=listthittydayamount, l=toolthittydayamount):
         try:
-            self.assertEqual(k, l, msg="近30天销售量对不上"),
+            self.assertEqual(k, l, msg="品牌趋势近30天销售量对不上"),
         except AssertionError as msg6:
             print(msg6)
 
     def test_case7(self, m=tabledaymoney, n=listdaymoney):
         try:
-            self.assertEqual(m, n, msg="当日销售量对不上"),
+            self.assertEqual(m, n, msg="品牌趋势当日销售量对不上"),
         except AssertionError as msg7:
             print(msg7)
 
     def test_case8(self, o=tabledayamount, p=listdayamount):
         try:
-            self.assertEqual(o, p, msg="当日销售量对不上"),
+            self.assertEqual(o, p, msg="品牌趋势当日销售量对不上"),
         except AssertionError as msg8:
             print(msg8)
 
