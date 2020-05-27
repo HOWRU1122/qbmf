@@ -17,7 +17,7 @@ driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div/ul/div/li[5]
 sleep(5)
 
 # 宝贝趋势分析
-driver.find_element_by_xpath("//a[@title='完美日记十二色动物眼影盘小狗小猫猫咪老虎斑虎小猪小鹿小熊猫盘']").click()
+driver.find_element_by_xpath("//a[@title='完美日记动物眼影盘锦鲤小狗小猫猫咪老虎斑虎小猪熊猫小鹿盘女']").click()
 sleep(1)
 
 # 按月

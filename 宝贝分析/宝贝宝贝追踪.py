@@ -15,7 +15,7 @@ driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div/ul/div/li[5]
 sleep(5)
 
 #宝贝追踪
-driver.find_element_by_xpath("//a[@title='完美日记十二色动物眼影盘小狗小猫猫咪老虎斑虎小猪小鹿小熊猫盘']").click()
+driver.find_element_by_xpath("//a[@title='完美日记动物眼影盘锦鲤小狗小猫猫咪老虎斑虎小猪熊猫小鹿盘女']").click()
 sleep(1)
 driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[2]/div/div[3]/div/div/a[2]").click()
 sleep(1)
@@ -48,5 +48,12 @@ sleep(1)
 driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/table/tbody/tr[2]/td[5]/div/span").click()
 sleep(1)
 
+
+
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from airtest_selenium.proxy import WebChrome
+driver = WebChrome()
+driver.implicitly_wait(20)
 
 
